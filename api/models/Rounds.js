@@ -41,6 +41,7 @@ module.exports = {
   		pole_position_end:{
   			type:'datetime'
   		}
+
   }
 };
 

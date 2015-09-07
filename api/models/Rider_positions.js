@@ -1,5 +1,5 @@
 /**
-* Riders.js
+* Rider_positions.js
 *
 * @description :: TODO: You might write a short summary of how this model works and what it represents here.
 * @docs        :: http://sailsjs.org/#!documentation/models
@@ -8,17 +8,20 @@
 module.exports = {
 	autoCreatedAt: false,
 	autoUpdatedAt: false,
-  attributes: {
+  	attributes: {
   		id:{
   			type: 'integer',
   			primaryKey: true
   		},
-  		name:{
-  			type:'string'
+  		round_id:{
+  			type: 'integer'
   		},
-  		race_number:{
+  		rider_id:{
   			type:'integer',
 
+  		},
+  		position:{
+  			type:'integer'
   		},
   		created_at:{
   			type:'datetime'
@@ -26,10 +29,12 @@ module.exports = {
   		updated_at:{
   			type:'datetime'
   		},
-  		team_id:{
+  		user_id:{
+  			type:'integer'
+  		},
+  		score:{
   			type:'integer'
   		}
-
   }
 };
 
