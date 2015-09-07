@@ -28,7 +28,12 @@ module.exports = {
   		},
   		team_id:{
   			type:'integer'
-  		}
+  		},
+      points:{
+        collection:'Rider_positions',
+        via:'rider_id'
+      }
+
 
   }
 };

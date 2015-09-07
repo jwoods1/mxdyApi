@@ -17,7 +17,9 @@ module.exports = {
   			type: 'integer'
   		},
   		rider_id:{
-  			type:'integer',
+  			owner:{
+          model: 'Riders'
+        }
 
   		},
   		position:{

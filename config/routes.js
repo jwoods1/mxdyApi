@@ -34,8 +34,9 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
-  }
+  },
 
+  'get /rider_points/:id?': 'Rider_points.find'
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *
