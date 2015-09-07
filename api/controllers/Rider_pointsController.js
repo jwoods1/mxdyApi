@@ -56,7 +56,7 @@ module.exports = {
 
                 if (err) return next(err);
 
-                res.json(riders);
+                res.json(riders.rows);
 
             });
 
