@@ -12,7 +12,7 @@ module.exports = {
   attributes: {
   		id:{
   			type: 'integer',
-  			primaryKey: true
+  			
   		},
   		round_id:{
   			type:'integer',
@@ -28,6 +28,7 @@ module.exports = {
   		},
   		user_id:{
   			type:'integer',
+  			primaryKey: true
 
   		},
   		rider_score:{
