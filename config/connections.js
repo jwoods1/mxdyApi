@@ -82,7 +82,18 @@ module.exports.connections = {
     password: 'tXSeETmTKlwQzq9waiJeJ9fB6P',
     database: 'dfrt4m0fc76gtu',
     ssl: true
+  },
+
+  digitalOceanPostgresqlServer: {
+    adapter: 'sails-postgresql',
+    host: '107.170.206.151',
+    port: 5432,
+    user: 'motodynasty',
+    password: 'dynasty2015',
+    database: 'dynasty',
+    ssl: true
   }
+
 
 
   /***************************************************************************
