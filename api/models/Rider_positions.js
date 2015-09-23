@@ -20,7 +20,6 @@ module.exports = {
   			owner:{
           model: 'Riders'
         }
-
   		},
   		position:{
   			type:'integer'
