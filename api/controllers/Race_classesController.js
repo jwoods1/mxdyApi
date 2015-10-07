@@ -25,6 +25,11 @@ module.exports = {
 							var cround = {};
 							cround.id = round.id;
 							cround.name = round.name;
+							cround.start = round.start_time;
+							cround.end = round.end_time;
+							cround.finished = round.finished;
+							cround.polePositionStart = round.pole_position_start;
+							cround.polePositionEnd = round.pole_position_end;
 							rc.rounds.push(cround);
 							
 						}
@@ -51,6 +56,11 @@ module.exports = {
 							var cround = {};
 							cround.id = round.id;
 							cround.name = round.name;
+							cround.start = round.start_time;
+							cround.end = round.end_time;
+							cround.finished = round.finished;
+							cround.polePositionStart = round.pole_position_start;
+							cround.polePositionEnd = round.pole_position_end;
 							rc.rounds.push(cround);
 							
 						}
