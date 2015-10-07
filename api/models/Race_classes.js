@@ -17,17 +17,8 @@ module.exports = {
   			type: 'string'
   		},
   		series_id:{
-  			type:'integer',
-
-  		},
-  		
-  		created_at:{
-  			type:'datetime'
-  		},
-  		updated_at:{
-  			type:'datetime'
+  			model:'series'
   		}
-  		
   }
 };
 

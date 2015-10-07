@@ -38,7 +38,8 @@ module.exports.routes = {
 
   'get /rider_points/:id?': 'Rider_points.find',
   'get /series_object/:id?': 'Series_object.find',
-  'get /api/classSeries': 'ClassSeries.get'
+  'get /api/classSeries': 'ClassSeries.get',
+  'get /api/class/:id?': 'Race_classes.get'
   
   /***************************************************************************
   *                                                                          *
