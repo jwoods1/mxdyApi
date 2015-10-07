@@ -23,7 +23,7 @@ module.exports = {
 							raceClass.name = cs.class;
 							series.raceclasses.push(raceClass);
 						}
-						console.log(series.raceclasses);
+						
 					})
 					
 				})
@@ -31,6 +31,8 @@ module.exports = {
 			})
 			
 		})
-	}
+	},
+	
+	
 };
 
