@@ -11,7 +11,7 @@ module.exports = {
 		var id = req.params.id;
 		
 		if(id){
-			Race_classes.find({id: id},function(err, rclass){
+			Race_classes.find({id: id}).populate('series_id').exec(function(err, rclass){
 			_.forEach(rclass, function(r){
 				r.rounds = [];
 			});
@@ -42,7 +42,7 @@ module.exports = {
 			
 		})
 		}else{
-			Race_classes.find(function(err, rclass){
+			Race_classes.find().populate('series_id').exec(function(err, rclass){
 			_.forEach(rclass, function(r){
 				r.rounds = [];
 			});
