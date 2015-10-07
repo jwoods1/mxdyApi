@@ -36,7 +36,10 @@ module.exports.routes = {
     view: 'homepage'
   },
 
-  'get /rider_points/:id?': 'Rider_points.find'
+  'get /rider_points/:id?': 'Rider_points.find',
+  'get /series_object/:id?': 'Series_object.find',
+  'get /api/classSeries': 'ClassSeries.get'
+  
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *
